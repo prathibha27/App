@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet" />
+	<link href="css/home.css" rel="stylesheet" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css">
+    
+	<title>Student Congress</title>
+</head>
+
+<body>
+	<!-- header -->
+	<!--<div id="particles-js"></div> -->
+	<div class="myheader w-full h-auto flex flex-row">
+		<div class="logo flex items-center justify-between">
+			<img class="logo" src="icon.png" />
+			<div class="top">
+			</div>
+			<!-- <img class="bc_logo" src="css/images/PES_White-01.png" /> -->
+		</div>
+		<!-- <div class="navcon flex">
+				<div class="content text-3xl font-mono">About</div>
+				<div class="content text-3xl font-mono">Events</div>
+				<div class="content text-3xl font-mono">Contact</div>
+			</div> -->
+	</div>
+	<!-- end header -->
+	<div class="main">
+		<!-- welcome  -->
+		<div class="mycontainer1 rounded-lg" data-aos="fade-down" data-aos-delay="50" data-aos-duration="2000">
+			<div class="welcome text-4xl sm:text-5xl text-center tracking-widest leading-loose uppercase py-8">
+				Welcome
+			</div>
+			<div class="text-base sm:text-lg md:text-2xl leading-loose text-center">
+				We are honoured to host the Student Congress. As is
+				the case with most things these days, we are taking Student
+				Congress to virtual heights. We bring to you an array of
+				events from workshop to ideathon and everything in between.
+				Over the course of three days- 28th, 29th and 30th of August
+				we seek to provide a platform to exchange knowledge and
+				technology and connect with student chapters spanning
+				throughout the country.
+			</div>
+		</div>
+		<!-- end welcome  -->
+
+		<span class="welcome text-4xl sm:text-5xl text-center tracking-widest leading-loose uppercase pt-0"
+			id="events" data-aos="fade-down" data-aos-delay="50" data-aos-duration="2000">Events</span>
+
+		<!-- events -->
+		<div class="eventcontainer rounded-lg">
+			<!-- <div class="events rounded-lg">1t</div>
+				<div class="events rounded-lg">2</div>
+				<div class="events rounded-lg">3</div>
+				<div class="events rounded-lg">4</div>
+				<div class="events rounded-lg">5</div>
+				<div class="events rounded-lg">6</div> -->
+
+			<section class="text-gray-700 body-font">
+				<div class="container px-5 py-24 mx-auto">
+					<div class="flex flex-wrap -m-4">
+						<div class="p-4 lg:w-1/3" data-aos="flip-up" data-aos-delay="50" data-aos-duration="2000">
+							<div
+								class="key flex flex-wrap justify-center items-center h-full px-8 pt-8 pb-10 rounded-lg overflow-hidden text-center relative">
+								<h1
+									class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 uppercase font-black tracking-widest pb-4">
+									Keynote
+								</h1>
+								<p class="leading-relaxed mb-3">
+									A keynote in public speaking is a talk
+									that establishes a main underlying
+									theme. ... Keynote speakers are often
+									selected to raise interest in a
+									particular event, such as a conference
+									or large meeting sponsored by a
+									corporation or association, and draw
+									attendees to attend that program.
+								</p>
+                                <button id="viewComment">VIEW COMMENTS</button>
+							</div>
+						</div>
+						<div class="p-4 lg:w-1/3" data-aos="flip-up" data-aos-delay="50" data-aos-duration="2000">
+							<div
+								class="panel flex flex-wrap justify-center items-center h-full px-8 pt-8 pb-10 rounded-lg overflow-hidden text-center relative">
+								<h1
+									class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 uppercase font-black tracking-widest pb-4">
+									Panel discussion
+								</h1>
+								<p class="leading-relaxed mb-3">
+									A panel discussion, or simply a panel,
+									involves a group of people gathered to
+									discuss a topic in front of an audience,
+									typically at scientific, business, or
+									academic conferences, fan conventions,
+									and on television shows.
+								</p>
+                                <button id="viewComment">VIEW COMMENTS</button>
+							</div>
+						</div>
+						<div class="p-4 lg:w-1/3" data-aos="flip-up" data-aos-delay="50" data-aos-duration="2000">
+							<div
+								class="idea flex flex-wrap justify-center items-center h-full px-8 pt-8 pb-10 rounded-lg overflow-hidden text-center relative">
+								<h1
+									class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 uppercase font-black tracking-widest pb-4">
+									Ideathon
+								</h1>
+								<p class="leading-relaxed mb-3">
+									A brainstorming event where participants
+									throw in their ideas on the stated
+									problem statements and use innovative
+									thinking to define the solution. The
+									problem statements will be defined under
+									a specific theme which facilitates the
+									participants to analyse it in a proper
+									direction.
+								</p>
+                                <button id="viewComment">VIEW COMMENTS</button>
+							</div>
+						</div>
+						<div class="p-4 lg:w-1/3" data-aos="flip-up" data-aos-delay="50" data-aos-duration="2000">
+							<div
+								class="workshop flex flex-wrap justify-center items-center h-full px-8 pt-8 pb-10 rounded-lg overflow-hidden text-center relative">
+								<h1
+									class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 uppercase font-black tracking-widest pb-4">
+									Workshop
+								</h1>
+								<p class="leading-relaxed mb-3">
+									This workshop will help participants
+									become better storytellers, building
+									their presentation skills and drawing
+									out engagement and enthusiasm they never
+									knew existed. The highly interactive
+									session will help explore what stories
+									are, how they work, and how making them
+									relatable for a successful business.
+								</p>
+                                <button id="viewComment">VIEW COMMENTS</button>
+							</div>
+						</div>
+						<div class="p-4 lg:w-1/3" data-aos="flip-up" data-aos-delay="50" data-aos-duration="2000">
+							<div
+								class="stuchap flex flex-wrap justify-center items-center h-full px-8 pt-8 pb-10 rounded-lg overflow-hidden text-center relative">
+								<h1
+									class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 uppercase font-black tracking-widest pb-4">
+									Student chapter reports
+								</h1>
+								<p class="leading-relaxed mb-3">
+									Student Chapter reports help us gain an
+									insight into innovative ideas and gives
+									us a fresh perspective on the various
+									membership initiatives being used. We
+									invite the chapters to present their
+									annual report and display the work of
+									their execom over the year.
+								</p>
+                                <button id="viewComment">VIEW COMMENTS</button>
+							</div>
+						</div>
+						<div class="p-4 lg:w-1/3" data-aos="flip-up" data-aos-delay="50" data-aos-duration="2000">
+							<div
+								class="quiz flex flex-wrap justify-center items-center h-full px-8 pt-8 pb-10 rounded-lg overflow-hidden text-center relative">
+								<h1
+									class="title-font sm:text-2xl text-xl font-medium text-gray-900 mb-3 uppercase font-black tracking-widest pb-4">
+									Interactive quiz
+								</h1>
+								<p class="leading-relaxed mb-3">
+									A fun virtual quiz which aims to connect
+									student members across the states. From
+									presidents to spiders, this mind sport
+									is here to keep you on your toes! Crack
+									this general trivia with the aid of your
+									fast thought processing. A perfect
+									get-away from the stress of technical
+									events,an opportunity to awaken the
+									hidden knowledge.
+								</p>
+                                <button id="viewComment">VIEW COMMENTS</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</div>
+		<!-- end events -->
+	</div>
+	<br />
+	<!-- footer  -->
+	<div class="py-10 mb-4 text-3xl flex flex-col items-center justify-center h-auto opacity-100">
+		<div class="text-black"><a href="about.html">About Us</a></div>
+		<div class="">
+			<!--   -->
+			<a href="https://www.facebook.com">
+				<i class="fa fa-facebook-square" aria-hidden="true"></i>
+			</a>
+			<a href="https://www.instagram.com">
+				<i class="fa fa-instagram" aria-hidden="true"></i>
+			</a>
+			<a href="https://www.linkedin.com">
+				<i class="fa fa-linkedin-square" aria-hidden="true"></i>
+			</a>
+		</div>
+	</div>
+	<!-- end footer  -->
+	<script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+	<script src="./js/home.js"></script>
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script src="index.js"></script>
+	<script>
+		AOS.init()
+	</script>
+</body>
+
+</html>
